@@ -1,4 +1,4 @@
-import Mock from 'mockjs'
+import Mock from "mockjs";
 
 type Item = {
   text: string,
@@ -14,8 +14,8 @@ type List = {
   item: Item[]
 }
 
-const todoList: List[] = []
-const COUNT = [1, 2, 3, 4, 5]
+const todoList: List[] = [];
+const COUNT: Array<number> = [1, 2, 3, 4, 5];
 for (let i = 0; i < COUNT.length; i++) {
   todoList.push(Mock.mock({
     id: Mock.Random.guid(),

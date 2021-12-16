@@ -18,7 +18,7 @@ export default {
           isDelete: todo.isDelete
         }
       }).filter(todo => {
-        return !todo.isDelete
+        return !todo.isDelete;
       })
 
       return new Promise((resolve, reject) => {
