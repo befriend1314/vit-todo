@@ -2,7 +2,7 @@
   import { getTodoList } from '../network/api';
 
   getTodoList().then(res => {
-    console.log('111111111111111', res.data)
+    console.log('111111111111111', res)
   })
 </script>
 
